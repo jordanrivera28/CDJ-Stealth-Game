@@ -1,0 +1,1167 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32456 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jorda" at "2025-11-29T19:18:57.9500084Z"
+Date: 2025-11-29T19:18:57Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/jorda/My project (3)
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+55490
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/jorda/My project (3)
+C:/Users/jorda/My project (3)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21304]  Target information:
+
+Player connection [21304]  * "[IP] 192.168.4.88 [Port] 0 [Flags] 2 [Guid] 684120242 [EditorId] 684120242 [Version] 1048832 [Id] WindowsEditor(7,Jordans-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21304] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 47608, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              cb96c8b276bc4a1fa8dce008c7c9fa83
+  Correlation Id:          37d5af6a49d9c7b7d5aa39a1259aa99e
+  External correlation Id: 1253017911979745332
+  Machine Id:              L+gL8otJDzAXF3ys2vaYCrqnOEA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jorda" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jorda-notifications" at "2025-11-29T19:18:58.0022001Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jorda/My project (3)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7683
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001859 seconds.
+- Loaded All Assemblies, in  0.405 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 816ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474410082467-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.936 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1800ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (235ms)
+			BuildScriptInfoCaches (62ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6626 unused Assets / (6.7 MB). Loaded Objects now: 7314.
+Memory consumption went from 143.1 MB to 136.4 MB.
+Total: 11.937400 ms (FindLiveObjects: 0.715700 ms CreateObjectMapping: 1.017100 ms MarkObjects: 6.459900 ms  DeleteObjects: 3.742800 ms)
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.079 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1916ms
+	BeginReloadAssembly (320ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (618ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (226ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6624 unused Assets / (6.5 MB). Loaded Objects now: 7329.
+Memory consumption went from 147.9 MB to 141.5 MB.
+Total: 11.548500 ms (FindLiveObjects: 0.808300 ms CreateObjectMapping: 0.962200 ms MarkObjects: 6.130300 ms  DeleteObjects: 3.645700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1359835.585665 seconds.
+  path: Assets/_3DStealthGame/Audio/SFXLose.wav
+  artifactKey: Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Audio/SFXLose.wav using Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffc61aba3260c1721ed0137a5d31134e') in 0.2229281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_3DStealthGame/Prefabs/VFX/Flickering_Light.prefab
+  artifactKey: Guid(7d9dddbfcd0c9c0468dfbc7d25bd2d79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/VFX/Flickering_Light.prefab using Guid(7d9dddbfcd0c9c0468dfbc7d25bd2d79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27b372b27d008d1b4ccd25ba23ae9b60') in 0.0844925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/DiningRoom/Table_Long.mat
+  artifactKey: Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/DiningRoom/Table_Long.mat using Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b298afe8deafa33a166a4d310d03672') in 0.0555851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Art/Fonts/EmilysCandy-Regular.ttf
+  artifactKey: Guid(2d9c0d4979dd8429ab703b61e939a451) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Fonts/EmilysCandy-Regular.ttf using Guid(2d9c0d4979dd8429ab703b61e939a451) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c91bda32c5eb03baaa04f5b7f6a0bdf') in 0.0352314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scripts/Observer.cs
+  artifactKey: Guid(3ffcb4bd792607f4f8200beaa0babb83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scripts/Observer.cs using Guid(3ffcb4bd792607f4f8200beaa0babb83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'debbffbcd22dd793d5ff5d866461a4ea') in 0.0246614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/VFX/Emissive.mat
+  artifactKey: Guid(effb672a2c71f0c40b7b1960d798968a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/VFX/Emissive.mat using Guid(effb672a2c71f0c40b7b1960d798968a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68d5bf331737578e4006e7e15a8814dc') in 0.0224459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/VFX/Skybox 1.mat
+  artifactKey: Guid(316682af022362f46af353f48e36627a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/VFX/Skybox 1.mat using Guid(316682af022362f46af353f48e36627a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7075ae29cf67c0c73c7ef80e50be6e9') in 0.0398403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/Corridor/Door_Post.mat
+  artifactKey: Guid(78a0737fcaa84b14d9527b1565fc5488) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/Corridor/Door_Post.mat using Guid(78a0737fcaa84b14d9527b1565fc5488) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3abeeb6d4f97b42046bb7696bde3dc3a') in 0.0275287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scripts/GameEnding.cs
+  artifactKey: Guid(3c2912133fd6d574f81dc713829954dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scripts/GameEnding.cs using Guid(3c2912133fd6d574f81dc713829954dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e3ca462bbee8c69aab191c4b69550b5') in 0.0247839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_3DStealthGame/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(cb6b94e2cdcd28147bae9769b2f70762) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(cb6b94e2cdcd28147bae9769b2f70762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7747d6bd3c866ea1f9183a188a1142ce') in 0.102045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scripts/LightFlicker.cs
+  artifactKey: Guid(24a255a6b0082bd429262fb040110f12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scripts/LightFlicker.cs using Guid(24a255a6b0082bd429262fb040110f12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd98adba493a0b6f60201d7fd0b5e7668') in 0.0246077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Art/PostProcessing/Scary Volume Profile.asset
+  artifactKey: Guid(05891a7f5c0a0684c93ecc7c2e7f4b0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/PostProcessing/Scary Volume Profile.asset using Guid(05891a7f5c0a0684c93ecc7c2e7f4b0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8a360c8bad002964fc563745730aa8b') in 0.0287953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_StraightThin.FBX
+  artifactKey: Guid(2de78e17331d71b49bd26432f0301b13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_StraightThin.FBX using Guid(2de78e17331d71b49bd26432f0301b13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2ca67cf34f1f31f3c3dee9510470723') in 0.0695153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Corridor/Light.FBX
+  artifactKey: Guid(fc0082b7f28474047b0d08e22d9a0a06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Corridor/Light.FBX using Guid(fc0082b7f28474047b0d08e22d9a0a06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efd01e2a9e34101c10a7488f7aab3b97') in 0.040828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Bathroom/Sink.fbx
+  artifactKey: Guid(29f8732179c306741966fcd26426f55e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Bathroom/Sink.fbx using Guid(29f8732179c306741966fcd26426f55e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b2a2dc80699f7f1ac4839673af09a18') in 0.0455571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/Bathroom/Mirror.mat
+  artifactKey: Guid(3086cb16e9941b845ac6e853a3a4e5b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/Bathroom/Mirror.mat using Guid(3086cb16e9941b845ac6e853a3a4e5b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9447115de87b4561df9b452a5962d56') in 0.0334984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_GhostMan.FBX
+  artifactKey: Guid(ff679918594d2cb44996e920ec16ca62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_GhostMan.FBX using Guid(ff679918594d2cb44996e920ec16ca62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '477d9d79bbfb6698a454763704088bf7') in 0.0356737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Info/Readme.asset
+  artifactKey: Guid(80262e33223625b4ba81f6fb236edd0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Info/Readme.asset using Guid(80262e33223625b4ba81f6fb236edd0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '320f9fdbd5376631864c4c76068a64e3') in 0.0178138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Audio/SFXWin.wav
+  artifactKey: Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Audio/SFXWin.wav using Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'febe5034dd91005cd4633c3c3d2a8892') in 0.0582628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Kitchen/KitchenStove.fbx
+  artifactKey: Guid(7375d078ef6653c40af3c6af254e7edd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Kitchen/KitchenStove.fbx using Guid(7375d078ef6653c40af3c6af254e7edd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8064ff0b7e9ea2d8424f58ba27354d70') in 0.0348593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Diningroom/Clock.FBX
+  artifactKey: Guid(91811fda631823c49b536c0b67dfec68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Diningroom/Clock.FBX using Guid(91811fda631823c49b536c0b67dfec68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '560e3dec9127730578e289f3ddca49cb') in 0.0347624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Kitchen/RugKitchen.FBX
+  artifactKey: Guid(a38703878a3c3194792bfb9db9e3c7c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Kitchen/RugKitchen.FBX using Guid(a38703878a3c3194792bfb9db9e3c7c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '895cbbf5148ae8aea7dfd910f9174783') in 0.048695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/Bathroom/BathtubLeg.mat
+  artifactKey: Guid(d7e2196a7a474e74fba16ada321c14f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/Bathroom/BathtubLeg.mat using Guid(d7e2196a7a474e74fba16ada321c14f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2e61875e49a9a57d7f938e3617a62d3') in 0.0302938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/Characters/Light_Cone.mat
+  artifactKey: Guid(98a5d7f03b88cef44932b3206c7bd8db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/Characters/Light_Cone.mat using Guid(98a5d7f03b88cef44932b3206c7bd8db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5d677a08bdc0155495faf4d27be78ee') in 0.029207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Bathroom/RugBathroom.FBX
+  artifactKey: Guid(6e3d6a0825b1b084184fed6e971fffa3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Bathroom/RugBathroom.FBX using Guid(6e3d6a0825b1b084184fed6e971fffa3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c4ca81d1e050760b2841d593fa1afd8') in 0.0309533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Kitchen/SinkKitchen.FBX
+  artifactKey: Guid(fadbeac840bc8eb408248d7bff877651) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Kitchen/SinkKitchen.FBX using Guid(fadbeac840bc8eb408248d7bff877651) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '348cb1df39fbcd1f68eefa30d51830c4') in 0.0358347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Walls/Wall_Straight_B.FBX
+  artifactKey: Guid(c5d18da2679e25245a660c82bd8f3b32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Walls/Wall_Straight_B.FBX using Guid(c5d18da2679e25245a660c82bd8f3b32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '321002fd02e3a0797b3b3b3e8f3b9dfe') in 0.0373436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_3DStealthGame/Art/Shaders/Toon/ToonShader.shadergraph
+  artifactKey: Guid(d56cffc8c4aac67428e343152fa22558) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Shaders/Toon/ToonShader.shadergraph using Guid(d56cffc8c4aac67428e343152fa22558) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f64643fa9c8af4e4bd43f2ac13de895c') in 0.0370005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/BathtubLeg_MetallicSmooth.tif
+  artifactKey: Guid(035b28d384a3fe44c96407179c34f574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/BathtubLeg_MetallicSmooth.tif using Guid(035b28d384a3fe44c96407179c34f574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57650fdf3da550a722611dacda458637') in 0.0570574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_3DStealthGame/Art/Models/VFX/DropSplash.fbx
+  artifactKey: Guid(e6c27adf3e47c024da4e786f5898c785) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/VFX/DropSplash.fbx using Guid(e6c27adf3e47c024da4e786f5898c785) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8504cf9a7ec1376f3114b75218ad984d') in 0.0352558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Kitchen/TilePlane.FBX
+  artifactKey: Guid(fd1d01dec815f0d4dbb6a6c376ffbf09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Kitchen/TilePlane.FBX using Guid(fd1d01dec815f0d4dbb6a6c376ffbf09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f1a2297416a014dd6c4decc9aeb67c6') in 0.0329236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/Floors/Rugs_RedBlue.mat
+  artifactKey: Guid(f5b8db6c5de6a6a4984f8dd09c302b59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/Floors/Rugs_RedBlue.mat using Guid(f5b8db6c5de6a6a4984f8dd09c302b59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '415582dcd7006a9fccff15c858c0c3a3') in 0.0336935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/mirror_occlusion.tif
+  artifactKey: Guid(68cb3c2f0ee1dfa4a93994cbe79d0f20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/mirror_occlusion.tif using Guid(68cb3c2f0ee1dfa4a93994cbe79d0f20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b159e9b75372bc5bd950e95785cd1cc6') in 0.0351438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/Radiator_Occlusion.tif
+  artifactKey: Guid(4852ba63fbf302f45a42b3fd12bedad1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/Radiator_Occlusion.tif using Guid(4852ba63fbf302f45a42b3fd12bedad1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfccb334308ba4871a58c950f24d9a18') in 0.0350697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/Wall_Bathroom_Albedo.tif
+  artifactKey: Guid(09664c153c68ab947b77deba659408dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/Wall_Bathroom_Albedo.tif using Guid(09664c153c68ab947b77deba659408dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d5f1a4e132c77eee6698b5bccf7c203') in 0.0366799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/Sink_MetallicSmooth.tif
+  artifactKey: Guid(21c4410ea00f38b40854a36ae65ad2f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/Sink_MetallicSmooth.tif using Guid(21c4410ea00f38b40854a36ae65ad2f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30bd3487b013467f1769c63367556949') in 0.0369194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/Pipe_Occlusion.tif
+  artifactKey: Guid(3b84af017fcbb4e4a9adbd89a6ed81c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/Pipe_Occlusion.tif using Guid(3b84af017fcbb4e4a9adbd89a6ed81c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7ff54d250d0c239238f1a69d8d7e0c4') in 0.0353287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/Sink_Normal.tif
+  artifactKey: Guid(23f65d9c07a8f734a9303a1b91f19e39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/Sink_Normal.tif using Guid(23f65d9c07a8f734a9303a1b91f19e39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '012cab303079a88eb009de2b8bb021bf') in 0.0360624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_Wolf.FBX
+  artifactKey: Guid(16359bd0c00e50e4580e93430782bac3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_Wolf.FBX using Guid(16359bd0c00e50e4580e93430782bac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17e3a360837ec65a60476ed4068777a2') in 0.0340223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BedRoom/Wardrobe_albedo.tif
+  artifactKey: Guid(e653a8a1f5ca96f499435e1722a44e44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BedRoom/Wardrobe_albedo.tif using Guid(e653a8a1f5ca96f499435e1722a44e44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e761f20bf564a246cf3ef543eb22f60') in 0.0402165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BedRoom/Wardrobe_normal.tif
+  artifactKey: Guid(e7d023d97c6003548aa49f102bc86b48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BedRoom/Wardrobe_normal.tif using Guid(e7d023d97c6003548aa49f102bc86b48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0179db69d03624a54d2f5ddcca4731b6') in 0.0308647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Characters/Gargoyle_Occlusion.tif
+  artifactKey: Guid(d3bc81db12f03c84091f40384beda6c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Characters/Gargoyle_Occlusion.tif using Guid(d3bc81db12f03c84091f40384beda6c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6e67d2ee15de09368d20ee50cf2b89f') in 0.0374676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BedRoom/Wall_Bedroom_Normal.tif
+  artifactKey: Guid(bffa1362c76c6124fa3804d5176eef0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BedRoom/Wall_Bedroom_Normal.tif using Guid(bffa1362c76c6124fa3804d5176eef0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e7855a23e5fbd092a114a91cd30e88a') in 0.0368079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BedRoom/Wall_Bedroom_MetallicSmooth.tif
+  artifactKey: Guid(1851897a7b3cb3b40b51ccea727ee4c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BedRoom/Wall_Bedroom_MetallicSmooth.tif using Guid(1851897a7b3cb3b40b51ccea727ee4c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4afdcd99ef93b433bfcafc8fd4d555e') in 0.039789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/VFX/WaterDropSmall.mat
+  artifactKey: Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/VFX/WaterDropSmall.mat using Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fde7c1b9eec22c6da846e7e0745e7a1') in 0.0289741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Bathroom/Mirror.fbx
+  artifactKey: Guid(c0a26f31b736dae4a8f2591c0eda0980) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Bathroom/Mirror.fbx using Guid(c0a26f31b736dae4a8f2591c0eda0980) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90c6dbdf0e6fbc3924695de0c3c2031e') in 0.0335695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Characters/Ivan_Normal.png
+  artifactKey: Guid(e367a379d6d564646ae27fdc920565e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Characters/Ivan_Normal.png using Guid(e367a379d6d564646ae27fdc920565e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f917dda6d95d187b36d3ba9d2c4abe3') in 0.039011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Corridor/Light_MetallicSmooth.tif
+  artifactKey: Guid(9f3edd81529cce04494e693ad0887e84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Corridor/Light_MetallicSmooth.tif using Guid(9f3edd81529cce04494e693ad0887e84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebc153037d3b897d61c2950079d34cdd') in 0.031377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Characters/Ivan_Albedo.png
+  artifactKey: Guid(424b49dae12654f41b9de0d411e62337) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Characters/Ivan_Albedo.png using Guid(424b49dae12654f41b9de0d411e62337) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '111f19a6a8f547d6da10c072d83d4ad9') in 0.0338903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Corridor/DoorPost_MetallicSmooth.tif
+  artifactKey: Guid(d87c5e66b380a074fa2264fd4da58aa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Corridor/DoorPost_MetallicSmooth.tif using Guid(d87c5e66b380a074fa2264fd4da58aa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd8459c4407557485aa5068984f77c3f') in 0.0327689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Characters/JohnLemon_Occlusion.tif
+  artifactKey: Guid(8add9c3ea34c3964f85be4cf3f251a6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Characters/JohnLemon_Occlusion.tif using Guid(8add9c3ea34c3964f85be4cf3f251a6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7145a19d748276459717e80b3ccec85') in 0.0427344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Characters/Gargoyle_Normal.tif
+  artifactKey: Guid(34c958df8066e254c9fe19021fb928f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Characters/Gargoyle_Normal.tif using Guid(34c958df8066e254c9fe19021fb928f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e79610004d72f810a891dfd03bf0f32') in 0.0336515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/DiningRoom/Chair.mat
+  artifactKey: Guid(41a54a7b601421848ac1ee00bed0c867) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/DiningRoom/Chair.mat using Guid(41a54a7b601421848ac1ee00bed0c867) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a88d9079284707797bd7b89e1846e8bd') in 0.0306447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/DiningRoom/Chair_MetallicSmooth.tif
+  artifactKey: Guid(1b213521cd84364439c5fb030fd7aa04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/DiningRoom/Chair_MetallicSmooth.tif using Guid(1b213521cd84364439c5fb030fd7aa04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '938d06fbbea702a5cad34b48f1f6f246') in 0.0307371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/DiningRoom/Cthulhu_Lamp_MetallicSmooth.tif
+  artifactKey: Guid(3b798118871b23b448abd87d74d29af9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/DiningRoom/Cthulhu_Lamp_MetallicSmooth.tif using Guid(3b798118871b23b448abd87d74d29af9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb746b83ec04ae868e07978a9dd5f799') in 0.0317902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Corridor/Window_Occlusion.tif
+  artifactKey: Guid(a7b016836ddb1f54cb67ce567d4995b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Corridor/Window_Occlusion.tif using Guid(a7b016836ddb1f54cb67ce567d4995b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbb1a11a11230811d452b7586e3993d7') in 0.0319478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/DiningRoom/Clock_Occlusion.tif
+  artifactKey: Guid(d47ff02a1774eaa4595a12e60aff2199) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/DiningRoom/Clock_Occlusion.tif using Guid(d47ff02a1774eaa4595a12e60aff2199) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32cec917a6789202eeb05f0e40987e46') in 0.0361644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/DiningRoom/CandleStick_Albedo.tif
+  artifactKey: Guid(5cd10124400cb26478cd41db912ce90f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/DiningRoom/CandleStick_Albedo.tif using Guid(5cd10124400cb26478cd41db912ce90f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12ad9096a51c681ef58e5f31ac36cf5f') in 0.0299105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Corridor/Small Tables_Occlusion.png
+  artifactKey: Guid(f6a509f4a282acb4fac275ac964cec32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Corridor/Small Tables_Occlusion.png using Guid(f6a509f4a282acb4fac275ac964cec32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d38b32bb0a906c6cf856d2e0043115c') in 0.0319085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Floors/Floor_Bedroom_Normal.tif
+  artifactKey: Guid(08c9198dcd6c19e459e53914775ecbba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Floors/Floor_Bedroom_Normal.tif using Guid(08c9198dcd6c19e459e53914775ecbba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8a19f3de765477b6fce318cbda15bde') in 0.0317309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Floors/Floor_Tiles_MetallicSmooth.png
+  artifactKey: Guid(cc534653491043e498e763d6db77564d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Floors/Floor_Tiles_MetallicSmooth.png using Guid(cc534653491043e498e763d6db77564d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '079034ab1d02f2c896811fca1de110c9') in 0.0451555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Floors/Floor_Diningroom_MetallicSmooth.tif
+  artifactKey: Guid(b619d081df43cab4c8bb698f67effe3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Floors/Floor_Diningroom_MetallicSmooth.tif using Guid(b619d081df43cab4c8bb698f67effe3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa09396bb1dbf39d782e068fe1b55ae8') in 0.035006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Floors/Floor_Diningroom_Normal.tif
+  artifactKey: Guid(bc5dcc79315da614384872c43bc93923) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Floors/Floor_Diningroom_Normal.tif using Guid(bc5dcc79315da614384872c43bc93923) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69fa5485cc661335205b4d508dddcfb3') in 0.0379074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Walls/Wall_Straight_D.FBX
+  artifactKey: Guid(7d7200f5f3350bf4da136016e6d8e7bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Walls/Wall_Straight_D.FBX using Guid(7d7200f5f3350bf4da136016e6d8e7bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9b772285ae76df0fe711483d4e9fa60') in 0.0342366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BedRoom/Bed_Albedo.tif
+  artifactKey: Guid(29ce91977ba80d54ba227ab8593a8156) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BedRoom/Bed_Albedo.tif using Guid(29ce91977ba80d54ba227ab8593a8156) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26c22e18a6b89f682d0389e608bdc7d2') in 0.0351871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Floors/Rug_GreenOrange_Albedo.png
+  artifactKey: Guid(e812913f55828034ca2d31782c13c848) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Floors/Rug_GreenOrange_Albedo.png using Guid(e812913f55828034ca2d31782c13c848) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b92cc55c8aaa4459c0f8f60ab8aea71c') in 0.0314342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Kitchen/SkinShelf_Occlusion.png
+  artifactKey: Guid(7b7bba79a080c9247a421b48e63d083d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Kitchen/SkinShelf_Occlusion.png using Guid(7b7bba79a080c9247a421b48e63d083d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52aadbdb31c2d3c2466786ffd570d30a') in 0.035551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Kitchen/FridgeMicrowave_Albedo.png
+  artifactKey: Guid(6b00fbc0c13c71043874233af90ca899) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Kitchen/FridgeMicrowave_Albedo.png using Guid(6b00fbc0c13c71043874233af90ca899) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c86461e574f91eaea82a342620357a0a') in 0.0388244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Kitchen/Wall_Kitchen_Normal.png
+  artifactKey: Guid(bcfd9a70695a522498c28d0b7bd63260) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Kitchen/Wall_Kitchen_Normal.png using Guid(bcfd9a70695a522498c28d0b7bd63260) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78cb9467aa8564f7069511dc0dba8c44') in 0.0305393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Kitchen/Cabinet_MetallicSmooth.png
+  artifactKey: Guid(a0ef583ae8989034aad721910a8ca8de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Kitchen/Cabinet_MetallicSmooth.png using Guid(a0ef583ae8989034aad721910a8ca8de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d6a21946aeafbb35c9df7ace4a8a9bd') in 0.0396215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Kitchen/Cabinet_Occlusion.png
+  artifactKey: Guid(eb1541f90f2989e40958a81e3b5cce63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Kitchen/Cabinet_Occlusion.png using Guid(eb1541f90f2989e40958a81e3b5cce63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '607d69be019f355d886bd55c59606257') in 0.0382335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/BathRoom/Radiator_MetallicSmooth.tif
+  artifactKey: Guid(6ff967b7e855f1c4aa4bf8f6a2bee20e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/BathRoom/Radiator_MetallicSmooth.tif using Guid(6ff967b7e855f1c4aa4bf8f6a2bee20e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf744a410e8a59aacd45b5d3dd22d553') in 0.0405444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Walls/Wall_Window_Double.prefab
+  artifactKey: Guid(2e6dcacda07b9c943972a5143ee1b579) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Walls/Wall_Window_Double.prefab using Guid(2e6dcacda07b9c943972a5143ee1b579) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c28a2be422f8308a7c3b2c0a68761ec1') in 0.0273262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Settings/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(886dbccf34af0d445acfc65b244e34a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Settings/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(886dbccf34af0d445acfc65b244e34a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0aadd55b43441f97aa712fc506705663') in 0.0657371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/VFX/ToonRampTint4.png
+  artifactKey: Guid(faa6985ef413994478c9d37d68e21fe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/VFX/ToonRampTint4.png using Guid(faa6985ef413994478c9d37d68e21fe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e24c6fda7f624020e44d9d2ff7e7d970') in 0.027439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room_Finish.prefab
+  artifactKey: Guid(c95ab41648a6f6b47860b4cba2b9bf7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room_Finish.prefab using Guid(c95ab41648a6f6b47860b4cba2b9bf7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8b2ef37b8b6a1d1cf1853b8d99c99d7') in 0.0420304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 313
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Walls/Wall_Corner_A.prefab
+  artifactKey: Guid(bf01f53400073ee4eaab48bf6104276f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Walls/Wall_Corner_A.prefab using Guid(bf01f53400073ee4eaab48bf6104276f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fc7f5aeb9eb417c1f2651f7c3dcd988') in 0.0266616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-0_comp_dir.png
+  artifactKey: Guid(d7aa1e41d24ee95499b0aed53b30007d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-0_comp_dir.png using Guid(d7aa1e41d24ee95499b0aed53b30007d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbf21189b4ccbdb5276e9c34c1405117') in 0.0303469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room_Corridor.prefab
+  artifactKey: Guid(82ea11e6a2d3d7041a5926d9a220111c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room_Corridor.prefab using Guid(82ea11e6a2d3d7041a5926d9a220111c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee009f05107afd4e35424dad0039a5c6') in 0.0333961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 257
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-4_comp_dir.png
+  artifactKey: Guid(29e6bb077f9876c49b46f77264546cc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-4_comp_dir.png using Guid(29e6bb077f9876c49b46f77264546cc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '575461f2183f14c71a1b3223bea348bc') in 0.037532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-1_comp_dir.png
+  artifactKey: Guid(7e0861d95ea5ef144ad77dedddc72eda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-1_comp_dir.png using Guid(7e0861d95ea5ef144ad77dedddc72eda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dd213b2fc2529e11ed0e1c9997d4772') in 0.0347004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-18_comp_dir.png
+  artifactKey: Guid(cbde5473dda4881438fae591b6bac213) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-18_comp_dir.png using Guid(cbde5473dda4881438fae591b6bac213) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7156b89f325487abde9744a1df09ca10') in 0.0350207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-24_comp_light.exr
+  artifactKey: Guid(01f7544fbb2748545b3f0ee30fea94fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-24_comp_light.exr using Guid(01f7544fbb2748545b3f0ee30fea94fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54b911c934f975d570ef53a95d2335e3') in 0.0365672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-23_comp_light.exr
+  artifactKey: Guid(ed9f761c9ad791b4f805b3a59e61efa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-23_comp_light.exr using Guid(ed9f761c9ad791b4f805b3a59e61efa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a69c98cb1d612722ab2bb54d3c473cd') in 0.0551969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-3_comp_dir.png
+  artifactKey: Guid(314e8c7fcbbcad04dbf0576a4405044b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-3_comp_dir.png using Guid(314e8c7fcbbcad04dbf0576a4405044b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5724a6af80d3187d84d9e4c746fd084a') in 0.0362374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/Diningroom/Chair_A.prefab
+  artifactKey: Guid(18e8f3cf6fe42a7438059622a10c61db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/Diningroom/Chair_A.prefab using Guid(18e8f3cf6fe42a7438059622a10c61db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12cec1c2573d11cd963920d6b03dbbfd') in 0.0312702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-4_comp_light.exr
+  artifactKey: Guid(7021bfcfd7c51cc4bb1279728ea58d5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-4_comp_light.exr using Guid(7021bfcfd7c51cc4bb1279728ea58d5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7eaa506d24761c83f73f282a04a1e371') in 0.0311425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-16_comp_dir.png
+  artifactKey: Guid(4ad5131e34e3c9749b1a8a82919326a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-16_comp_dir.png using Guid(4ad5131e34e3c9749b1a8a82919326a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afa9be8c8c560dc34a08f4da5b65657e') in 0.0430062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene.unity
+  artifactKey: Guid(139fe7247bf905647981ad2d31d0f39e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene.unity using Guid(139fe7247bf905647981ad2d31d0f39e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db572bd6da9313a67db4939eed66b2ff') in 0.0266742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/Corridor/DoorPost_Occlusion.tif
+  artifactKey: Guid(71b186b931fdc274dbeaeb7eb4039366) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/Corridor/DoorPost_Occlusion.tif using Guid(71b186b931fdc274dbeaeb7eb4039366) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f1c2a56cfd33d0c4c2b2edc4e5657f8') in 0.0356052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_CatLady.FBX
+  artifactKey: Guid(913d61a5ca2d96d43ba1c709260d55a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Corridor/PictureFrame_CatLady.FBX using Guid(913d61a5ca2d96d43ba1c709260d55a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '487beabd01bb9e57c2c4a3a25c9c9172') in 0.0311333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/Kitchen/StoveAndTools.mat
+  artifactKey: Guid(af62b97a7cf989a49bf4ab3a088a6d64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/Kitchen/StoveAndTools.mat using Guid(af62b97a7cf989a49bf4ab3a088a6d64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8e595e634b7dda56fd94f4544d69faa') in 0.028035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/Kitchen/Pot.prefab
+  artifactKey: Guid(f0361f9754cb4b64ab7c93661e5fb5a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/Kitchen/Pot.prefab using Guid(f0361f9754cb4b64ab7c93661e5fb5a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2790045f572d2e22e3f2b9ee49615e56') in 0.02783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/Kitchen/KitchenHood.prefab
+  artifactKey: Guid(90b53260d1599844b80ab1eadf1eea02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/Kitchen/KitchenHood.prefab using Guid(90b53260d1599844b80ab1eadf1eea02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fde13ad404a3d01cfe195d25e693417') in 0.0241798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room Blanks/Room 2 x 3.prefab
+  artifactKey: Guid(473904374f864b84eb17548e3856d7f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room Blanks/Room 2 x 3.prefab using Guid(473904374f864b84eb17548e3856d7f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '877ccdb4542bb6c4128f488a1ed47fbd') in 0.0251708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_StraightThin.prefab
+  artifactKey: Guid(fa93e43b01f7c25428bb4feedbbb86a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_StraightThin.prefab using Guid(fa93e43b01f7c25428bb4feedbbb86a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36182fdfdc4d0f814c045c3cd6d98d13') in 0.0264963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/Diningroom/Chair_B.prefab
+  artifactKey: Guid(63d1dcb66a43f6048b46981a4abc3fff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/Diningroom/Chair_B.prefab using Guid(63d1dcb66a43f6048b46981a4abc3fff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3cfc75109e8687f5d5d910bbcab56bf') in 0.0270398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-5_comp_light.exr
+  artifactKey: Guid(beb06a9a520b26346a8cf430fbe77525) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/DemoScene Data/Lightmap-5_comp_light.exr using Guid(beb06a9a520b26346a8cf430fbe77525) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b773e40560523968949ab71690dedba8') in 0.0357165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_GhostMan.prefab
+  artifactKey: Guid(36607e53e1c1e164a8749d7c65ed673a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_GhostMan.prefab using Guid(36607e53e1c1e164a8749d7c65ed673a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65af914277e7a43925a45499ffb51b4d') in 0.0312729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_Wolf.prefab
+  artifactKey: Guid(582e59bcc14a52f4c8e99a3c4772b89b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_Wolf.prefab using Guid(582e59bcc14a52f4c8e99a3c4772b89b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27f21b64164c82111dbfd7f7aad193c5') in 0.0433459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room Blanks/Room 4 x 7.prefab
+  artifactKey: Guid(fd08305cf08b8fd4aa2de18b8da6be1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Rooms/Room Blanks/Room 4 x 7.prefab using Guid(fd08305cf08b8fd4aa2de18b8da6be1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74bcfbbd2126c88bbe210aeba6b2fd10') in 0.0275245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Art/Models/Characters/Players/Ivan_Model.fbx
+  artifactKey: Guid(4d7b34bc56da58746ab5ca5a13fe1685) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Models/Characters/Players/Ivan_Model.fbx using Guid(4d7b34bc56da58746ab5ca5a13fe1685) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fcdde1fe9cf1e7bc4bc6093c9708f44') in 0.0345071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/Bedroom/Rug_Bedroom.prefab
+  artifactKey: Guid(f69f12e207e387146a17b239bb69e43e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/Bedroom/Rug_Bedroom.prefab using Guid(f69f12e207e387146a17b239bb69e43e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04a4c007942114b8e0033123ee8848fc') in 0.0375243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/Fireplace.prefab
+  artifactKey: Guid(de12a8ff68064d149b96fd74850abce6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/Fireplace.prefab using Guid(de12a8ff68064d149b96fd74850abce6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a8346e911e12c129232e66b25426f6c') in 0.0324798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/Kitchen/Pan.prefab
+  artifactKey: Guid(2257aaa87eb23ef4282462406a9cdf55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/Kitchen/Pan.prefab using Guid(2257aaa87eb23ef4282462406a9cdf55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '930a11c0ac57a6592fe450ef988641ff') in 0.0292266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/Bathroom/Sink.mat
+  artifactKey: Guid(7dc883052ccb59842a9c6b10113e1470) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/Bathroom/Sink.mat using Guid(7dc883052ccb59842a9c6b10113e1470) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e11e802e894a5634e246ea72937a3e1') in 0.0330658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_3DStealthGame/Art/Textures/DiningRoom/Cthulhu_Lamp_Occlusion.tif
+  artifactKey: Guid(3fc488c9331779b4cb4179823da675a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Textures/DiningRoom/Cthulhu_Lamp_Occlusion.tif using Guid(3fc488c9331779b4cb4179823da675a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b11417856b63a1b8352a3d081bf5f58f') in 0.0345358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_3DStealthGame/Prefabs/VFX/RisingSteam.prefab
+  artifactKey: Guid(9edab173a51e68a4eb43c77f998d4a9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/VFX/RisingSteam.prefab using Guid(9edab173a51e68a4eb43c77f998d4a9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff0cda0ec05f8831d650d7df167e8eaa') in 0.0966548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_3DStealthGame/Art/Materials/BedRoom/Wardrobe.mat
+  artifactKey: Guid(9e2335d028e7ab645970536c61cf4aac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Art/Materials/BedRoom/Wardrobe.mat using Guid(9e2335d028e7ab645970536c61cf4aac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31510d20e38217f36d3573036a32f0ec') in 0.0307757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_Curvy.prefab
+  artifactKey: Guid(83c13e70b8df63a4482dbe63bdc49d85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/Prefabs/Environment/Decorations/General/PictureFrame_Curvy.prefab using Guid(83c13e70b8df63a4482dbe63bdc49d85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0cee3bd77b0f99512bc82108cda320bc') in 0.0293362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
