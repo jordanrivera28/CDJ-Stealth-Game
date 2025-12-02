@@ -1,0 +1,634 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Randall" at "2025-12-02T16:27:39.5569919Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 32620 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-02T16:27:39Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Randall/Downloads/CDJ-Stealth-Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53345
+-licensingIpc
+LicenseClient-Randall
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Randall/Downloads/CDJ-Stealth-Game
+C:/Users/Randall/Downloads/CDJ-Stealth-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22684]  Target information:
+
+Player connection [22684]  * "[IP] 192.168.50.154 [Port] 0 [Flags] 2 [Guid] 1064164691 [EditorId] 1064164691 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H0K90E6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22684] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22684] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23108, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              e8d876d1f7bc4a729deb853bd3a86b60
+  Correlation Id:          d111acb619a5d267ce4267d8ad3745d3
+  External correlation Id: 6544767336391494514
+  Machine Id:              BE6NTVbDBnL5dwRMjpb0xWoPckg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Randall" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Randall-notifications" at "2025-12-02T16:27:39.6405143Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Randall/Downloads/CDJ-Stealth-Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4630
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005189 seconds.
+- Loaded All Assemblies, in  0.789 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.703 seconds
+Domain Reload Profiling: 1485ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (308ms)
+				TypeCache.ScanAssembly (286ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (101ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475875104104-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.522 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.580 seconds
+Domain Reload Profiling: 3088ms
+	BeginReloadAssembly (345ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (984ms)
+		LoadAssemblies (680ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (496ms)
+			TypeCache.Refresh (359ms)
+				TypeCache.ScanAssembly (336ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (273ms)
+			ProcessInitializeOnLoadAttributes (789ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6684 unused Assets / (7.1 MB). Loaded Objects now: 7376.
+Memory consumption went from 142.3 MB to 135.2 MB.
+Total: 17.989900 ms (FindLiveObjects: 0.940100 ms CreateObjectMapping: 1.035200 ms MarkObjects: 12.054900 ms  DeleteObjects: 3.957700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2997.386640 seconds.
+  path: Assets/_Recovery
+  artifactKey: Guid(ce1b40626cae9b8479b1322971aeea36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Recovery using Guid(ce1b40626cae9b8479b1322971aeea36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebf335efe4a4e4d60af9d728229ec245') in 0.2596745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Recovery/0.unity
+  artifactKey: Guid(a2c3cfe1a0988614ba3f701a16b424bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Recovery/0.unity using Guid(a2c3cfe1a0988614ba3f701a16b424bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'adbd3f42bfe05627ec4cdb8b77fd7aa9') in 0.0394233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 509.215888 seconds.
+  path: Assets/_3DStealthGame/Art/Fonts/IrishGrover-Regular.ttf
+  artifactKey: Guid(915b03c09fe744ec4996cac4a8543281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Art/Fonts/IrishGrover-Regular.ttf using Guid(915b03c09fe744ec4996cac4a8543281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05405a8f81977012dc7e520155b371f') in 2.2518653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 557.218771 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraBoldItalic.ttf
+  artifactKey: Guid(15a9d3d9323d44e4bbe84d548c993dac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraBoldItalic.ttf using Guid(15a9d3d9323d44e4bbe84d548c993dac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59243a9ea67c3c831b867fd6f96daab7') in 0.5410915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/OFL.txt
+  artifactKey: Guid(4fb953965d06fca40ba4735d8a323903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/OFL.txt using Guid(4fb953965d06fca40ba4735d8a323903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '042b192492d7bc34a4bcf77b78a52a85') in 0.0106489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraLightItalic.ttf
+  artifactKey: Guid(8bf900b2e3bdb0447ae1dc7f6b286a46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraLightItalic.ttf using Guid(8bf900b2e3bdb0447ae1dc7f6b286a46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1653f4a52a878fe38455d38181b1024c') in 0.022385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraLight.ttf
+  artifactKey: Guid(14f173be88037644b94cd8b558174024) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraLight.ttf using Guid(14f173be88037644b94cd8b558174024) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11c3676e27373faa2be931d0c5070525') in 0.0242319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-MediumItalic.ttf
+  artifactKey: Guid(e12392a3d6f48dc439075a61d20200d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-MediumItalic.ttf using Guid(e12392a3d6f48dc439075a61d20200d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03bda530c035fe76dfd44540051201c6') in 0.017551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-Medium.ttf
+  artifactKey: Guid(0610156b0c8a18f418d3e11657d77516) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-Medium.ttf using Guid(0610156b0c8a18f418d3e11657d77516) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dda6359bfe6623b64b58916fef3e5899') in 0.0498096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-Black.ttf
+  artifactKey: Guid(3d17d81c2ab3add4ba8889b97685b15f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-Black.ttf using Guid(3d17d81c2ab3add4ba8889b97685b15f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e576a5886dc7136ec7165397d04c218') in 0.0244114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-BlackItalic.ttf
+  artifactKey: Guid(5222897b117626e4781ee22ebd8a11a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-BlackItalic.ttf using Guid(5222897b117626e4781ee22ebd8a11a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '393a61dbeefed4ed10f27dd0752a0bcd') in 0.0202972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-MediumItalic.ttf
+  artifactKey: Guid(ea9f9580ef303f247b256b75ec7ee784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-MediumItalic.ttf using Guid(ea9f9580ef303f247b256b75ec7ee784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a216c5e697e4689760d2f58f5dea8a4') in 0.0204918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-Black.ttf
+  artifactKey: Guid(9f010a57ea1adfa4599928c94974e7c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-Black.ttf using Guid(9f010a57ea1adfa4599928c94974e7c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eef95d7b045486a8cbb635cbf9554e04') in 0.0198678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-Medium.ttf
+  artifactKey: Guid(23dcfabccf2ca2d45ad1cd43e903c79a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-Medium.ttf using Guid(23dcfabccf2ca2d45ad1cd43e903c79a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec8b66bdc478026d8fd81a6330afeddb') in 0.0214617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-SemiBold.ttf
+  artifactKey: Guid(887746c33c60e0a4e901656cffe6f002) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-SemiBold.ttf using Guid(887746c33c60e0a4e901656cffe6f002) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '162c1152de6c660bad647163e5c6c45f') in 0.0187161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-Light.ttf
+  artifactKey: Guid(d1c6e9436af097d4c949ae537e64ce3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-Light.ttf using Guid(d1c6e9436af097d4c949ae537e64ce3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b79e4d7f4e1938628bdc5563812b5c2') in 0.0197413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-ExtraLight.ttf
+  artifactKey: Guid(121a2502a02c8404eab18a88b1937881) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-ExtraLight.ttf using Guid(121a2502a02c8404eab18a88b1937881) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50296cb431a51ec053c8684d97aa12f6') in 0.0200282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-ExtraLight.ttf
+  artifactKey: Guid(679af71f1eedc8a4e90e23b384f13f65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-ExtraLight.ttf using Guid(679af71f1eedc8a4e90e23b384f13f65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c54e2d7dba7fc1d3738a449a916d5e1') in 0.0163267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-SemiBold.ttf
+  artifactKey: Guid(22f44a0fae37281488f9e23e9377c59a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-SemiBold.ttf using Guid(22f44a0fae37281488f9e23e9377c59a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffda44f1868da8047df83fb5b3f794b7') in 0.0206834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-BoldItalic.ttf
+  artifactKey: Guid(8d607075efe0a5047b1135fe9f242021) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-BoldItalic.ttf using Guid(8d607075efe0a5047b1135fe9f242021) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fadcbd3e3504ee472ef50e7cc327410') in 0.0213668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-SemiBoldItalic.ttf
+  artifactKey: Guid(7079275133e80204895cb4aefa83773b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-SemiBoldItalic.ttf using Guid(7079275133e80204895cb4aefa83773b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '394f0e09423f790f3f6f3f476e2c14f5') in 0.0477022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-MediumItalic.ttf
+  artifactKey: Guid(f72f4d03e7cc54041b5085c46fb50f5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-MediumItalic.ttf using Guid(f72f4d03e7cc54041b5085c46fb50f5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2548877897377fcb9074669080a0920a') in 0.0213477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-SemiBoldItalic.ttf
+  artifactKey: Guid(26eb7d2439d0ddc41bb64aa5aabf5684) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-SemiBoldItalic.ttf using Guid(26eb7d2439d0ddc41bb64aa5aabf5684) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5673479573b1a088a1677fcccd2c4acb') in 0.0241747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-ThinItalic.ttf
+  artifactKey: Guid(113c4515db1b74a4a9c57f6a7f741137) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-ThinItalic.ttf using Guid(113c4515db1b74a4a9c57f6a7f741137) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba234d6312f9f9df88f25f692b39f13a') in 0.0234945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraBold.ttf
+  artifactKey: Guid(1c05d3eb560abae478656d204d3fcf03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ExtraBold.ttf using Guid(1c05d3eb560abae478656d204d3fcf03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f48ce81b991b221d888deddcc5877eb') in 0.0195396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-ExtraBoldItalic.ttf
+  artifactKey: Guid(6c6ffb68c26fcf741b1156edbed2f956) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-ExtraBoldItalic.ttf using Guid(6c6ffb68c26fcf741b1156edbed2f956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f85708a1a874a2e7aa036e685db6051') in 0.0223582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ThinItalic.ttf
+  artifactKey: Guid(939f4dee613c9ad4e9e487ada2937cac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-ThinItalic.ttf using Guid(939f4dee613c9ad4e9e487ada2937cac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98db2140d62ba38f71acfdcb4f5cf66d') in 0.020624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-LightItalic.ttf
+  artifactKey: Guid(4af27047d337b88478e93a5422b09fd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-LightItalic.ttf using Guid(4af27047d337b88478e93a5422b09fd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d40359e2a3d5f7c41c8ec80039fdb63') in 0.0216218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-ExtraLightItalic.ttf
+  artifactKey: Guid(5dd9c2b51e8be4a429d87afe3c0a8d36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-ExtraLightItalic.ttf using Guid(5dd9c2b51e8be4a429d87afe3c0a8d36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b81db58d27a352703c14dd7a4a473bc') in 0.0213928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-Bold.ttf
+  artifactKey: Guid(9ac9f8e6aa797e24d975a5719286e081) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-Bold.ttf using Guid(9ac9f8e6aa797e24d975a5719286e081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ed39b71c183236b8742e5f263d57654') in 0.0205287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto-Regular.ttf
+  artifactKey: Guid(7a3daf66cdf12d44e8641b427f5cbb4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto-Regular.ttf using Guid(7a3daf66cdf12d44e8641b427f5cbb4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7198f1332e281dbe8adbcb2725f1cca8') in 0.0185021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-SemiBold.ttf
+  artifactKey: Guid(ddc82e84ba009f04ca2940436f0e16a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_SemiCondensed-SemiBold.ttf using Guid(ddc82e84ba009f04ca2940436f0e16a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a519704175cc897b32e246cc02542f59') in 0.044226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-BlackItalic.ttf
+  artifactKey: Guid(d2fb202c0be81f240a91558217387361) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_3DStealthGame/UI/Roboto/static/Roboto_Condensed-BlackItalic.ttf using Guid(d2fb202c0be81f240a91558217387361) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8855ff163fed5e4d30da79330f59959') in 0.2253368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6676 unused Assets / (7.1 MB). Loaded Objects now: 7571.
+Memory consumption went from 148.8 MB to 141.7 MB.
+Total: 32.167700 ms (FindLiveObjects: 1.883800 ms CreateObjectMapping: 1.250900 ms MarkObjects: 22.916300 ms  DeleteObjects: 6.114400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.180 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.940 seconds
+Domain Reload Profiling: 4105ms
+	BeginReloadAssembly (684ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (64ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (200ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (1257ms)
+		LoadAssemblies (1013ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (529ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (473ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1941ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (384ms)
+			ProcessInitializeOnLoadAttributes (951ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6681 unused Assets / (7.0 MB). Loaded Objects now: 7461.
+Memory consumption went from 154.7 MB to 147.8 MB.
+Total: 18.434100 ms (FindLiveObjects: 1.246900 ms CreateObjectMapping: 1.642500 ms MarkObjects: 10.000100 ms  DeleteObjects: 5.542500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 260.543914 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Characters/Gargoyle.prefab
+  artifactKey: Guid(7336bcbad1c0c5e49857faaa7ac57dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Prefabs/Characters/Gargoyle.prefab using Guid(7336bcbad1c0c5e49857faaa7ac57dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cebafe3585641afc70c74f601b3b25e6') in 1.0349021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Characters/PointOfView.prefab
+  artifactKey: Guid(6f831d0869692ea4580a73b5e1f9f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Prefabs/Characters/PointOfView.prefab using Guid(6f831d0869692ea4580a73b5e1f9f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ea5b806e704fd0e124f953e8924970c') in 0.003148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_3DStealthGame/Prefabs/Characters/Player.prefab
+  artifactKey: Guid(f6c60606378f21f4eaebf39a99c70871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Prefabs/Characters/Player.prefab using Guid(f6c60606378f21f4eaebf39a99c70871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5955605e05336fc1459adaef95e31866') in 0.043988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.290223 seconds.
+  path: Assets/_3DStealthGame/UI/MainUI.uxml
+  artifactKey: Guid(63be7f5e4cd69ac47aad97c3e6799595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/UI/MainUI.uxml using Guid(63be7f5e4cd69ac47aad97c3e6799595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45bd42db2561bb08f41986b0aeef9139') in 0.0828746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.779651 seconds.
+  path: Assets/_3DStealthGame/Audio/SFXBuzzingLight.wav
+  artifactKey: Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Audio/SFXBuzzingLight.wav using Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abc68cd8499f5b1e1994ba0afdcd0ca3') in 0.1204271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/_3DStealthGame/Audio/SFXWin.wav
+  artifactKey: Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Audio/SFXWin.wav using Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88e9730dd2324b8e01a3953b2f081cdc') in 0.0441379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_3DStealthGame/Audio/SFXFootstepsLooping.wav
+  artifactKey: Guid(07e520bb410492d47bf739846d70f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Audio/SFXFootstepsLooping.wav using Guid(07e520bb410492d47bf739846d70f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58db401fdf826b23a339bf47944a60f4') in 0.0519191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_3DStealthGame/Audio/SFXGhostMove.wav
+  artifactKey: Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Audio/SFXGhostMove.wav using Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b213d5205ce4c07e8ec31d03698bb8a1') in 0.0900586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_3DStealthGame/Audio/SFXLose.wav
+  artifactKey: Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3DStealthGame/Audio/SFXLose.wav using Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8419247cc834e7ad81312d92a867c443') in 0.0555664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
