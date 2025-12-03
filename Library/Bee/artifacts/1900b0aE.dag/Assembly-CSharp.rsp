@@ -447,6 +447,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/_3DStealthGame/Scripts/BoostUIManager.cs"
 "Assets/_3DStealthGame/Scripts/GameEnding.cs"
 "Assets/_3DStealthGame/Scripts/Observer.cs"
 "Assets/_3DStealthGame/Scripts/PlayerMovement.cs"

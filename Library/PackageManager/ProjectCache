@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Randall/Downloads/CDJ-Stealth-Game/Packages/manifest.json
+    m_FilePath: C:/UNITY Projects/CDJ-Stealth-Game/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639002271564323742
+      ticks: 639003282071491273
     m_Hash: 1790770131
   m_LockFileStatus:
-    m_FilePath: C:/Users/Randall/Downloads/CDJ-Stealth-Game/Packages/packages-lock.json
+    m_FilePath: C:/UNITY Projects/CDJ-Stealth-Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639002271564333749
+      ticks: 639003282071491273
     m_Hash: 1229464666
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Randall/Downloads/CDJ-Stealth-Game/Packages
+m_ProjectPath: C:/UNITY Projects/CDJ-Stealth-Game/Packages
 m_EditorVersion: 6000.2.9f1 (e0c4e791ab71)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -107,7 +107,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -240,7 +240,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.25
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.burst@1df634d836b8
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.burst@1df634d836b8
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -476,7 +476,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.1.4
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.cinemachine@b66fdb7cd1f2
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.cinemachine@b66fdb7cd1f2
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -712,7 +712,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.0
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -905,7 +905,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1036,7 +1036,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.25
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1150,7 +1150,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.2
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1314,7 +1314,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1410,7 +1410,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.5.0
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.postprocessing@94edadb6c5ab
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.postprocessing@94edadb6c5ab
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -1535,7 +1535,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.2.0
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.render-pipelines.core@04755ad51d99
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.render-pipelines.core@04755ad51d99
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -1661,7 +1661,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.2.0
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.render-pipelines.universal@bc6f352be672
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.render-pipelines.universal@bc6f352be672
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -1788,7 +1788,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -1896,7 +1896,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -2002,7 +2002,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2092,7 +2092,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2290,7 +2290,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.ugui@7056cb05de4c
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.ugui@7056cb05de4c
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2386,7 +2386,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.8
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -5279,7 +5279,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5359,7 +5359,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.6.2
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.collections@aea9d3bd5e19
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.collections@aea9d3bd5e19
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -5545,7 +5545,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -5646,7 +5646,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.2.0
   source: 2
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.shadergraph@2c9221ffedf4
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.shadergraph@2c9221ffedf4
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5762,7 +5762,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.8.2
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.splines@1cb7d86fc7ff
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.splines@1cb7d86fc7ff
   assetPath: Packages/com.unity.splines
   name: com.unity.splines
   displayName: Splines
@@ -5883,7 +5883,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.5
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -5978,7 +5978,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.0
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -6121,7 +6121,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.searcher@1e17ce91558d
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6220,7 +6220,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: C:\Users\Randall\Downloads\CDJ-Stealth-Game\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\UNITY Projects\CDJ-Stealth-Game\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager

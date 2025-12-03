@@ -21,8 +21,23 @@ public class GameEnding : MonoBehaviour
 
     void Start()
     {
+        // If uiDocument is not assigned, try to find it
+        if (uiDocument == null)
+        {
+            uiDocument = FindObjectOfType<UIDocument>();
+            if (uiDocument == null)
+            {
+                Debug.LogWarning("GameEnding: No UIDocument found in scene!");
+                return;
+            }
+        }
+        
         m_EndScreen = uiDocument.rootVisualElement.Q<VisualElement>("EndScreen");
         m_CaughtScreen = uiDocument.rootVisualElement.Q<VisualElement>("CaughtScreen");
+        
+        // Make sure screens are hidden at start
+        if (m_EndScreen != null) m_EndScreen.style.opacity = 0;
+        if (m_CaughtScreen != null) m_CaughtScreen.style.opacity = 0;
     }
 
     void OnTriggerEnter(Collider other)
@@ -52,14 +67,20 @@ public class GameEnding : MonoBehaviour
 
     void EndLevel(VisualElement element, bool doRestart, AudioSource audioSource)
     {
-        if (!m_HasAudioPlayed)
+        if (element == null)
+        {
+            Debug.LogError("GameEnding: UI element is null!");
+            return;
+        }
+
+        if (!m_HasAudioPlayed && audioSource != null)
         {
             audioSource.Play();
             m_HasAudioPlayed = true;
         }
 
         m_Timer += Time.deltaTime;
-        element.style.opacity = m_Timer / fadeDuration;
+        element.style.opacity = Mathf.Min(m_Timer / fadeDuration, 1f);
 
         if (m_Timer > fadeDuration + displayImageDuration)
         {
@@ -70,8 +91,9 @@ public class GameEnding : MonoBehaviour
             else
             {
                 Application.Quit();
-                Time.timeScale = 0;
-
+                #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+                #endif
             }
         }
     }
